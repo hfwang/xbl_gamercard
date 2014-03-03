@@ -1,6 +1,7 @@
 # XblGamercard
 
-
+XBox Live gamercard and Live profile scraper. Scrapes Microsoft's sites, trading
+one kind of reliability (not relying on xboxleaders API) for another ()
 
 ## Installation
 
@@ -30,12 +31,16 @@ TODO: Write usage instructions here
 
 ## See Also
 
-There is a ton of prior art out there. This gem scrapes the public profile pages, while I found the others deficient in a variety of ways.
+There is a ton of prior art out there. This gem scrapes the public profile
+pages, while I found the others deficient in a variety of ways.
 
-* https://github.com/hypomodern/gamercard - Only scrapes the Live profile page (which no longer shows played games)
-* https://github.com/greendog99/xbox_live - Actually uses mechanize to login, potentially flakey.
+* https://github.com/hypomodern/gamercard - Only scrapes the Live profile page
+  (which no longer shows played games)
+* https://github.com/greendog99/xbox_live - Actually uses mechanize to login,
+  potentially flakey.
 
-Xboxleaders (http://xboxleaders.github.io/) based gems, which is pretty slow/unreliable. :cry:
+Xboxleaders (http://xboxleaders.github.io/) based gems, which is pretty
+slow/unreliable. :cry:
 * https://github.com/barisbalic/gamertag
 * https://github.com/Keithbsmiley/xboxleaders-gem
 * https://github.com/nevern02/xbox_leaders
