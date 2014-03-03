@@ -4,30 +4,21 @@ require "uri"
 
 module XblGamercard
   class Gamercard
-    attr_accessor :document
+    include XblGamercard::MicroScraper
+
+    attr_accessor :element
 
     def initialize(html)
-      @document = Nokogiri::HTML(html)
+      @element = Nokogiri::HTML(html)
     end
 
-    def gamertag
-      document.css("#Gamertag").text()
-    end
-
-    def gamerscore
-      document.css("#Gamerscore").text().to_i
-    end
-
-    def name
-      document.css("#Name").text()
-    end
-
-    def icon_url
-      document.css("#Gamerpic")[0]["src"]
-    end
+    extract_text("#Gamertag")
+    extract_int("#Gamerscore")
+    extract_text("#Name")
+    extract("#Gamerpic", :as => :icon_url) { |e| e["src"] }
 
     def played_games
-      return document.css("ol#PlayedGames>li").select { |e|
+      return element.css("ol#PlayedGames>li").select { |e|
         e["class"] != "Unplayed"
       }.map { |e|
         XblGamercard::GamercardGame.new(e)
