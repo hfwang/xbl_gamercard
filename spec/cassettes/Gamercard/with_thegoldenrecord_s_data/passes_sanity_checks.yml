@@ -1,0 +1,38 @@
+--- 
+http_interactions: 
+- request: 
+    method: get
+    uri: http://gamercard.xbox.com/en-US/thegoldenrecord.card
+    body: 
+      string: ""
+    headers: 
+      Accept: 
+      - "*/*"
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Mon, 03 Mar 2014 04:54:14 GMT
+      Content-Length: 
+      - "6104"
+      Content-Type: 
+      - text/html; charset=utf-8
+      Connection: 
+      - keep-alive
+      X-Content-Type-Options: 
+      - nosniff
+      X-Ua-Compatible: 
+      - IE=edge
+      Cache-Control: 
+      - private
+    body: 
+      string: "\r\n\
+        <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n\
+        <html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"eng\">\r\n    <head>\r\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"/Content/Gamercard/default/gamercard.css\" />\r\n        <meta name=\"robots\" content=\"noindex,nofollow\" />\r\n        <meta name=\"category\" content=\"Gamercard\" />\r\n        <base target=\"_top\" />\r\n        <title>thegoldenrecord</title>\r\n    </head>\r\n    <body>\r\n        <div class=\"XbcGamercard Gold Male \">\r\n            \r\n            <a id=\"Gamertag\" href=\"http://live.xbox.com/en-US/Profile?Gamertag=thegoldenrecord\">thegoldenrecord</a>\r\n            <a href=\"http://live.xbox.com/en-US/Profile?Gamertag=thegoldenrecord\">\r\n                <img id=\"Gamerpic\" src=\"http://image.xboxlive.com/global/t.584109c0/tile/0/2000e\" alt=\"FEZ\" title=\"FEZ\"/>\r\n            </a>\r\n            <div class=\"RepContainer\">\r\n                <label>Rep</label>\r\n                \r\n                    <div class=\"Star Full\"></div>\r\n                    <div class=\"Star Full\"></div>\r\n                    <div class=\"Star Full\"></div>\r\n                    <div class=\"Star Full\"></div>\r\n                    <div class=\"Star Full\"></div>\r\n            </div>\r\n            <div class=\"GamerscoreContainer\">\r\n                <label></label>\r\n                <div id=\"Gamerscore\">3845</div>\r\n            </div>\r\n            <div id=\"Location\"></div>\r\n            <div id=\"Motto\"></div>\r\n            <div id=\"Name\">Chris</div>\r\n            <div id=\"Bio\"></div>\r\n\
+        \r\n            \r\n            <ol id=\"PlayedGames\" >\r\n            \r\n                <li >\r\n                    \r\n                    <a href=\"http://live.xbox.com/en-US/Activity/Details?titleId=1129121858&amp;compareTo=thegoldenrecord\">\r\n                       <img src=\"http://tiles.xbox.com/tiles/+N/OB/1Wdsb2JhbA9ECgQLG1QfVltRL2ljb24vMC84MDAwIAAAAAAAAPqu0+c=.jpg\" alt=\"F1 2011\xE2\x84\xA2\" title=\"F1 2011\xE2\x84\xA2\" />\r\n                       <span class=\"Title\">F1 2011\xE2\x84\xA2</span>\r\n                       <span class=\"LastPlayed\">2/27/2014</span>\r\n                       <span class=\"EarnedGamerscore\">195</span>\r\n                       <span class=\"AvailableGamerscore\">1000</span>\r\n                       <span class=\"EarnedAchievements\">9</span>\r\n                       <span class=\"AvailableAchievements\">38</span>\r\n                       <span class=\"PercentageComplete\">23%</span>\r\n                    </a>\r\n                </li>\r\n            \r\n                <li >\r\n                    \r\n                    <a href=\"http://live.xbox.com/en-US/Activity/Details?titleId=1096157379&amp;compareTo=thegoldenrecord\">\r\n                       <img src=\"http://tiles.xbox.com/tiles/NX/Oq/0mdsb2JhbA9ECgQJGgYfVgxQL2ljb24vMC84MDAwIAAAAAAAAP2Fcyo=.jpg\" alt=\"COD: Black Ops II\" title=\"COD: Black Ops II\" />\r\n                       <span class=\"Title\">COD: Black Ops II</span>\r\n                       <span class=\"LastPlayed\">2/26/2014</span>\r\n                       <span class=\"EarnedGamerscore\">60</span>\r\n                       <span class=\"AvailableGamerscore\">2000</span>\r\n                       <span class=\"EarnedAchievements\">2</span>\r\n                       <span class=\"AvailableAchievements\">90</span>\r\n                       <span class=\"PercentageComplete\">2%</span>\r\n                    </a>\r\n                </li>\r\n            \r\n                <li >\r\n                    \r\n                    <a href=\"http://live.xbox.com/en-US/Activity/Details?titleId=1480657548&amp;compareTo=thegoldenrecord\">\r\n                       <img src=\"http://tiles.xbox.com/tiles/Pr/h-/1Wdsb2JhbA9ECgUAGwEfD1cAL2ljb24vMC84MDAwIAAAAAAAAPpQuCE=.jpg\" alt=\"PAC-MAN CE DX\" title=\"PAC-MAN CE DX\" />\r\n                       <span class=\"Title\">PAC-MAN CE DX</span>\r\n                       <span class=\"LastPlayed\">2/15/2014</span>\r\n                       <span class=\"EarnedGamerscore\">110</span>\r\n                       <span class=\"AvailableGamerscore\">200</span>\r\n                       <span class=\"EarnedAchievements\">8</span>\r\n                       <span class=\"AvailableAchievements\">12</span>\r\n                       <span class=\"PercentageComplete\">66%</span>\r\n                    </a>\r\n                </li>\r\n            \r\n                <li >\r\n                    \r\n                    <a href=\"http://live.xbox.com/en-US/Activity/Details?titleId=1464993804&amp;compareTo=thegoldenrecord\">\r\n                       <img src=\"http://tiles.xbox.com/tiles/fB/mf/1Wdsb2JhbA9ECgUPGgIfVl8AL2ljb24vMC84MDAwIAAAAAAAAPqwGWM=.jpg\" alt=\"Once Upon a Monster\" title=\"Once Upon a Monster\" />\r\n                       <span class=\"Title\">Once Upon a Monster</span>\r\n                       <span class=\"LastPlayed\">2/15/2014</span>\r\n                       <span class=\"EarnedGamerscore\">400</span>\r\n                       <span class=\"AvailableGamerscore\">1105</span>\r\n                       <span class=\"EarnedAchievements\">20</span>\r\n                       <span class=\"AvailableAchievements\">46</span>\r\n                       <span class=\"PercentageComplete\">43%</span>\r\n                    </a>\r\n                </li>\r\n            \r\n                <li >\r\n                    \r\n                    <a href=\"http://live.xbox.com/en-US/Activity/Details?titleId=1480659447&amp;compareTo=thegoldenrecord\">\r\n                       <img src=\"http://tiles.xbox.com/tiles/fg/9Q/0Gdsb2JhbA9ECgUAGwEeXwlUL2ljb24vMC84MDAwIAAAAAAAAP9-D2E=.jpg\" alt=\"Minecraft\" title=\"Minecraft\" />\r\n                       <span class=\"Title\">Minecraft</span>\r\n                       <span class=\"LastPlayed\">2/7/2014</span>\r\n                       <span class=\"EarnedGamerscore\">215</span>\r\n                       <span class=\"AvailableGamerscore\">400</span>\r\n                       <span class=\"EarnedAchievements\">13</span>\r\n                       <span class=\"AvailableAchievements\">20</span>\r\n                       <span class=\"PercentageComplete\">65%</span>\r\n                    </a>\r\n                </li>\r\n            \r\n            </ol>\r\n        </div>\r\n        \r\n    </body>\r\n\
+        </html>"
+    http_version: 
+  recorded_at: Mon, 03 Mar 2014 04:54:14 GMT
+recorded_with: VCR 2.8.0

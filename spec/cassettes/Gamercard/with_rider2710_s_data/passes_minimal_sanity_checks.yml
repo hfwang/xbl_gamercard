@@ -1,0 +1,38 @@
+--- 
+http_interactions: 
+- request: 
+    method: get
+    uri: http://gamercard.xbox.com/en-US/rider2710.card
+    body: 
+      string: ""
+    headers: 
+      Accept: 
+      - "*/*"
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Mon, 03 Mar 2014 04:54:15 GMT
+      Content-Length: 
+      - "6124"
+      Content-Type: 
+      - text/html; charset=utf-8
+      Connection: 
+      - keep-alive
+      X-Content-Type-Options: 
+      - nosniff
+      X-Ua-Compatible: 
+      - IE=edge
+      Cache-Control: 
+      - private
+    body: 
+      string: "\r\n\
+        <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n\
+        <html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"eng\">\r\n    <head>\r\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"/Content/Gamercard/default/gamercard.css\" />\r\n        <meta name=\"robots\" content=\"noindex,nofollow\" />\r\n        <meta name=\"category\" content=\"Gamercard\" />\r\n        <base target=\"_top\" />\r\n        <title>rider2710</title>\r\n    </head>\r\n    <body>\r\n        <div class=\"XbcGamercard Gold Male \">\r\n            \r\n            <a id=\"Gamertag\" href=\"http://live.xbox.com/en-US/Profile?Gamertag=rider2710\">rider2710</a>\r\n            <a href=\"http://live.xbox.com/en-US/Profile?Gamertag=rider2710\">\r\n                <img id=\"Gamerpic\" src=\"http://avatar.xboxlive.com/avatar/rider2710/avatarpic-l.png\" alt=\"rider2710\" title=\"rider2710\"/>\r\n            </a>\r\n            <div class=\"RepContainer\">\r\n                <label>Rep</label>\r\n                \r\n                    <div class=\"Star Full\"></div>\r\n                    <div class=\"Star Full\"></div>\r\n                    <div class=\"Star Full\"></div>\r\n                    <div class=\"Star Full\"></div>\r\n                    <div class=\"Star Full\"></div>\r\n            </div>\r\n            <div class=\"GamerscoreContainer\">\r\n                <label></label>\r\n                <div id=\"Gamerscore\">7642</div>\r\n            </div>\r\n            <div id=\"Location\"></div>\r\n            <div id=\"Motto\">Fast &amp; Bulbous</div>\r\n            <div id=\"Name\"></div>\r\n            <div id=\"Bio\"></div>\r\n\
+        \r\n            \r\n            <ol id=\"PlayedGames\" >\r\n            \r\n                <li >\r\n                    \r\n                    <a href=\"http://live.xbox.com/en-US/Activity/Details?titleId=1096157379&amp;compareTo=rider2710\">\r\n                       <img src=\"http://tiles.xbox.com/tiles/NX/Oq/0mdsb2JhbA9ECgQJGgYfVgxQL2ljb24vMC84MDAwIAAAAAAAAP2Fcyo=.jpg\" alt=\"COD: Black Ops II\" title=\"COD: Black Ops II\" />\r\n                       <span class=\"Title\">COD: Black Ops II</span>\r\n                       <span class=\"LastPlayed\">2/5/2014</span>\r\n                       <span class=\"EarnedGamerscore\">105</span>\r\n                       <span class=\"AvailableGamerscore\">2000</span>\r\n                       <span class=\"EarnedAchievements\">7</span>\r\n                       <span class=\"AvailableAchievements\">90</span>\r\n                       <span class=\"PercentageComplete\">7%</span>\r\n                    </a>\r\n                </li>\r\n            \r\n                <li >\r\n                    \r\n                    <a href=\"http://live.xbox.com/en-US/Activity/Details?titleId=1480659548&amp;compareTo=rider2710\">\r\n                       <img src=\"http://tiles.xbox.com/tiles/WS/zY/1mdsb2JhbA9ECgUAGwEeXFoAL2ljb24vMC84MDAwIAAAAAAAAPn3LEY=.jpg\" alt=\"Kinect Party\" title=\"Kinect Party\" />\r\n                       <span class=\"Title\">Kinect Party</span>\r\n                       <span class=\"LastPlayed\">1/15/2014</span>\r\n                       <span class=\"EarnedGamerscore\">300</span>\r\n                       <span class=\"AvailableGamerscore\">400</span>\r\n                       <span class=\"EarnedAchievements\">15</span>\r\n                       <span class=\"AvailableAchievements\">20</span>\r\n                       <span class=\"PercentageComplete\">75%</span>\r\n                    </a>\r\n                </li>\r\n            \r\n                <li >\r\n                    \r\n                    <a href=\"http://live.xbox.com/en-US/Activity/Details?titleId=1096157269&amp;compareTo=rider2710\">\r\n                       <img src=\"http://tiles.xbox.com/tiles/RX/0w/1Wdsb2JhbA9ECgQJGgYfVlpWL2ljb24vMC84MDAwIAAAAAAAAPoffVo=.jpg\" alt=\"Call of Duty Black Ops\" title=\"Call of Duty Black Ops\" />\r\n                       <span class=\"Title\">Call of Duty Black Ops</span>\r\n                       <span class=\"LastPlayed\">1/15/2014</span>\r\n                       <span class=\"EarnedGamerscore\">150</span>\r\n                       <span class=\"AvailableGamerscore\">1700</span>\r\n                       <span class=\"EarnedAchievements\">13</span>\r\n                       <span class=\"AvailableAchievements\">71</span>\r\n                       <span class=\"PercentageComplete\">18%</span>\r\n                    </a>\r\n                </li>\r\n            \r\n                <li >\r\n                    \r\n                    <a href=\"http://live.xbox.com/en-US/Activity/Details?titleId=1480657278&amp;compareTo=rider2710\">\r\n                       <img src=\"http://tiles.xbox.com/tiles/lo/DD/0Gdsb2JhbA9ECgUAGwEfV1gGL2ljb24vMC84MDAwIAAAAAAAAP-sgIk=.jpg\" alt=\"Battlefield 1943\xE2\x84\xA2\" title=\"Battlefield 1943\xE2\x84\xA2\" />\r\n                       <span class=\"Title\">Battlefield 1943\xE2\x84\xA2</span>\r\n                       <span class=\"LastPlayed\">1/6/2014</span>\r\n                       <span class=\"EarnedGamerscore\">190</span>\r\n                       <span class=\"AvailableGamerscore\">200</span>\r\n                       <span class=\"EarnedAchievements\">11</span>\r\n                       <span class=\"AvailableAchievements\">12</span>\r\n                       <span class=\"PercentageComplete\">91%</span>\r\n                    </a>\r\n                </li>\r\n            \r\n                <li >\r\n                    \r\n                    <a href=\"http://live.xbox.com/en-US/Activity/Details?titleId=1161889807&amp;compareTo=rider2710\">\r\n                       <img src=\"http://tiles.xbox.com/tiles/7n/lS/1Wdsb2JhbA9ECgQNGwEfVl8FL2ljb24vMC84MDAwIAAAAAAAAPp9efE=.jpg\" alt=\"The Orange Box\" title=\"The Orange Box\" />\r\n                       <span class=\"Title\">The Orange Box</span>\r\n                       <span class=\"LastPlayed\">1/6/2014</span>\r\n                       <span class=\"EarnedGamerscore\">35</span>\r\n                       <span class=\"AvailableGamerscore\">1000</span>\r\n                       <span class=\"EarnedAchievements\">5</span>\r\n                       <span class=\"AvailableAchievements\">99</span>\r\n                       <span class=\"PercentageComplete\">5%</span>\r\n                    </a>\r\n                </li>\r\n            \r\n            </ol>\r\n        </div>\r\n        \r\n    </body>\r\n\
+        </html>"
+    http_version: 
+  recorded_at: Mon, 03 Mar 2014 04:54:15 GMT
+recorded_with: VCR 2.8.0
