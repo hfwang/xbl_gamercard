@@ -1,38 +1,180 @@
---- 
-http_interactions: 
-- request: 
+---
+http_interactions:
+- request:
     method: get
     uri: http://gamercard.xbox.com/en-US/thegoldenrecord.card
-    body: 
-      string: ""
-    headers: 
-      Accept: 
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
       - "*/*"
-  response: 
-    status: 
+      User-Agent:
+      - Ruby
+      Host:
+      - gamercard.xbox.com
+  response:
+    status:
       code: 200
       message: OK
-    headers: 
-      Date: 
-      - Mon, 03 Mar 2014 04:54:14 GMT
-      Content-Length: 
-      - "6104"
-      Content-Type: 
-      - text/html; charset=utf-8
-      Connection: 
-      - keep-alive
-      X-Content-Type-Options: 
-      - nosniff
-      X-Ua-Compatible: 
-      - IE=edge
-      Cache-Control: 
+    headers:
+      Cache-Control:
       - private
-    body: 
-      string: "\r\n\
-        <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n\
-        <html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"eng\">\r\n    <head>\r\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"/Content/Gamercard/default/gamercard.css\" />\r\n        <meta name=\"robots\" content=\"noindex,nofollow\" />\r\n        <meta name=\"category\" content=\"Gamercard\" />\r\n        <base target=\"_top\" />\r\n        <title>thegoldenrecord</title>\r\n    </head>\r\n    <body>\r\n        <div class=\"XbcGamercard Gold Male \">\r\n            \r\n            <a id=\"Gamertag\" href=\"http://live.xbox.com/en-US/Profile?Gamertag=thegoldenrecord\">thegoldenrecord</a>\r\n            <a href=\"http://live.xbox.com/en-US/Profile?Gamertag=thegoldenrecord\">\r\n                <img id=\"Gamerpic\" src=\"http://image.xboxlive.com/global/t.584109c0/tile/0/2000e\" alt=\"FEZ\" title=\"FEZ\"/>\r\n            </a>\r\n            <div class=\"RepContainer\">\r\n                <label>Rep</label>\r\n                \r\n                    <div class=\"Star Full\"></div>\r\n                    <div class=\"Star Full\"></div>\r\n                    <div class=\"Star Full\"></div>\r\n                    <div class=\"Star Full\"></div>\r\n                    <div class=\"Star Full\"></div>\r\n            </div>\r\n            <div class=\"GamerscoreContainer\">\r\n                <label></label>\r\n                <div id=\"Gamerscore\">3845</div>\r\n            </div>\r\n            <div id=\"Location\"></div>\r\n            <div id=\"Motto\"></div>\r\n            <div id=\"Name\">Chris</div>\r\n            <div id=\"Bio\"></div>\r\n\
-        \r\n            \r\n            <ol id=\"PlayedGames\" >\r\n            \r\n                <li >\r\n                    \r\n                    <a href=\"http://live.xbox.com/en-US/Activity/Details?titleId=1129121858&amp;compareTo=thegoldenrecord\">\r\n                       <img src=\"http://tiles.xbox.com/tiles/+N/OB/1Wdsb2JhbA9ECgQLG1QfVltRL2ljb24vMC84MDAwIAAAAAAAAPqu0+c=.jpg\" alt=\"F1 2011\xE2\x84\xA2\" title=\"F1 2011\xE2\x84\xA2\" />\r\n                       <span class=\"Title\">F1 2011\xE2\x84\xA2</span>\r\n                       <span class=\"LastPlayed\">2/27/2014</span>\r\n                       <span class=\"EarnedGamerscore\">195</span>\r\n                       <span class=\"AvailableGamerscore\">1000</span>\r\n                       <span class=\"EarnedAchievements\">9</span>\r\n                       <span class=\"AvailableAchievements\">38</span>\r\n                       <span class=\"PercentageComplete\">23%</span>\r\n                    </a>\r\n                </li>\r\n            \r\n                <li >\r\n                    \r\n                    <a href=\"http://live.xbox.com/en-US/Activity/Details?titleId=1096157379&amp;compareTo=thegoldenrecord\">\r\n                       <img src=\"http://tiles.xbox.com/tiles/NX/Oq/0mdsb2JhbA9ECgQJGgYfVgxQL2ljb24vMC84MDAwIAAAAAAAAP2Fcyo=.jpg\" alt=\"COD: Black Ops II\" title=\"COD: Black Ops II\" />\r\n                       <span class=\"Title\">COD: Black Ops II</span>\r\n                       <span class=\"LastPlayed\">2/26/2014</span>\r\n                       <span class=\"EarnedGamerscore\">60</span>\r\n                       <span class=\"AvailableGamerscore\">2000</span>\r\n                       <span class=\"EarnedAchievements\">2</span>\r\n                       <span class=\"AvailableAchievements\">90</span>\r\n                       <span class=\"PercentageComplete\">2%</span>\r\n                    </a>\r\n                </li>\r\n            \r\n                <li >\r\n                    \r\n                    <a href=\"http://live.xbox.com/en-US/Activity/Details?titleId=1480657548&amp;compareTo=thegoldenrecord\">\r\n                       <img src=\"http://tiles.xbox.com/tiles/Pr/h-/1Wdsb2JhbA9ECgUAGwEfD1cAL2ljb24vMC84MDAwIAAAAAAAAPpQuCE=.jpg\" alt=\"PAC-MAN CE DX\" title=\"PAC-MAN CE DX\" />\r\n                       <span class=\"Title\">PAC-MAN CE DX</span>\r\n                       <span class=\"LastPlayed\">2/15/2014</span>\r\n                       <span class=\"EarnedGamerscore\">110</span>\r\n                       <span class=\"AvailableGamerscore\">200</span>\r\n                       <span class=\"EarnedAchievements\">8</span>\r\n                       <span class=\"AvailableAchievements\">12</span>\r\n                       <span class=\"PercentageComplete\">66%</span>\r\n                    </a>\r\n                </li>\r\n            \r\n                <li >\r\n                    \r\n                    <a href=\"http://live.xbox.com/en-US/Activity/Details?titleId=1464993804&amp;compareTo=thegoldenrecord\">\r\n                       <img src=\"http://tiles.xbox.com/tiles/fB/mf/1Wdsb2JhbA9ECgUPGgIfVl8AL2ljb24vMC84MDAwIAAAAAAAAPqwGWM=.jpg\" alt=\"Once Upon a Monster\" title=\"Once Upon a Monster\" />\r\n                       <span class=\"Title\">Once Upon a Monster</span>\r\n                       <span class=\"LastPlayed\">2/15/2014</span>\r\n                       <span class=\"EarnedGamerscore\">400</span>\r\n                       <span class=\"AvailableGamerscore\">1105</span>\r\n                       <span class=\"EarnedAchievements\">20</span>\r\n                       <span class=\"AvailableAchievements\">46</span>\r\n                       <span class=\"PercentageComplete\">43%</span>\r\n                    </a>\r\n                </li>\r\n            \r\n                <li >\r\n                    \r\n                    <a href=\"http://live.xbox.com/en-US/Activity/Details?titleId=1480659447&amp;compareTo=thegoldenrecord\">\r\n                       <img src=\"http://tiles.xbox.com/tiles/fg/9Q/0Gdsb2JhbA9ECgUAGwEeXwlUL2ljb24vMC84MDAwIAAAAAAAAP9-D2E=.jpg\" alt=\"Minecraft\" title=\"Minecraft\" />\r\n                       <span class=\"Title\">Minecraft</span>\r\n                       <span class=\"LastPlayed\">2/7/2014</span>\r\n                       <span class=\"EarnedGamerscore\">215</span>\r\n                       <span class=\"AvailableGamerscore\">400</span>\r\n                       <span class=\"EarnedAchievements\">13</span>\r\n                       <span class=\"AvailableAchievements\">20</span>\r\n                       <span class=\"PercentageComplete\">65%</span>\r\n                    </a>\r\n                </li>\r\n            \r\n            </ol>\r\n        </div>\r\n        \r\n    </body>\r\n\
-        </html>"
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Content-Type-Options:
+      - nosniff
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Mon, 03 Mar 2014 05:37:02 GMT
+      Content-Length:
+      - '6104'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        DQo8IURPQ1RZUEUgaHRtbCBQVUJMSUMgIi0vL1czQy8vRFREIFhIVE1MIDEu
+        MCBUcmFuc2l0aW9uYWwvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvVFIveGh0
+        bWwxL0RURC94aHRtbDEtdHJhbnNpdGlvbmFsLmR0ZCI+DQo8aHRtbCB4bWxu
+        cz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCIgbGFuZz0iZW5nIj4N
+        CiAgICA8aGVhZD4NCiAgICAgICAgPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiB0
+        eXBlPSJ0ZXh0L2NzcyIgaHJlZj0iL0NvbnRlbnQvR2FtZXJjYXJkL2RlZmF1
+        bHQvZ2FtZXJjYXJkLmNzcyIgLz4NCiAgICAgICAgPG1ldGEgbmFtZT0icm9i
+        b3RzIiBjb250ZW50PSJub2luZGV4LG5vZm9sbG93IiAvPg0KICAgICAgICA8
+        bWV0YSBuYW1lPSJjYXRlZ29yeSIgY29udGVudD0iR2FtZXJjYXJkIiAvPg0K
+        ICAgICAgICA8YmFzZSB0YXJnZXQ9Il90b3AiIC8+DQogICAgICAgIDx0aXRs
+        ZT50aGVnb2xkZW5yZWNvcmQ8L3RpdGxlPg0KICAgIDwvaGVhZD4NCiAgICA8
+        Ym9keT4NCiAgICAgICAgPGRpdiBjbGFzcz0iWGJjR2FtZXJjYXJkIEdvbGQg
+        TWFsZSAiPg0KICAgICAgICAgICAgDQogICAgICAgICAgICA8YSBpZD0iR2Ft
+        ZXJ0YWciIGhyZWY9Imh0dHA6Ly9saXZlLnhib3guY29tL2VuLVVTL1Byb2Zp
+        bGU/R2FtZXJ0YWc9dGhlZ29sZGVucmVjb3JkIj50aGVnb2xkZW5yZWNvcmQ8
+        L2E+DQogICAgICAgICAgICA8YSBocmVmPSJodHRwOi8vbGl2ZS54Ym94LmNv
+        bS9lbi1VUy9Qcm9maWxlP0dhbWVydGFnPXRoZWdvbGRlbnJlY29yZCI+DQog
+        ICAgICAgICAgICAgICAgPGltZyBpZD0iR2FtZXJwaWMiIHNyYz0iaHR0cDov
+        L2ltYWdlLnhib3hsaXZlLmNvbS9nbG9iYWwvdC41ODQxMDljMC90aWxlLzAv
+        MjAwMGUiIGFsdD0iRkVaIiB0aXRsZT0iRkVaIi8+DQogICAgICAgICAgICA8
+        L2E+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJSZXBDb250YWluZXIiPg0K
+        ICAgICAgICAgICAgICAgIDxsYWJlbD5SZXA8L2xhYmVsPg0KICAgICAgICAg
+        ICAgICAgIA0KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJTdGFy
+        IEZ1bGwiPjwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNz
+        PSJTdGFyIEZ1bGwiPjwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICA8ZGl2
+        IGNsYXNzPSJTdGFyIEZ1bGwiPjwvZGl2Pg0KICAgICAgICAgICAgICAgICAg
+        ICA8ZGl2IGNsYXNzPSJTdGFyIEZ1bGwiPjwvZGl2Pg0KICAgICAgICAgICAg
+        ICAgICAgICA8ZGl2IGNsYXNzPSJTdGFyIEZ1bGwiPjwvZGl2Pg0KICAgICAg
+        ICAgICAgPC9kaXY+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJHYW1lcnNj
+        b3JlQ29udGFpbmVyIj4NCiAgICAgICAgICAgICAgICA8bGFiZWw+PC9sYWJl
+        bD4NCiAgICAgICAgICAgICAgICA8ZGl2IGlkPSJHYW1lcnNjb3JlIj4zODQ1
+        PC9kaXY+DQogICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgIDxkaXYg
+        aWQ9IkxvY2F0aW9uIj48L2Rpdj4NCiAgICAgICAgICAgIDxkaXYgaWQ9Ik1v
+        dHRvIj48L2Rpdj4NCiAgICAgICAgICAgIDxkaXYgaWQ9Ik5hbWUiPkNocmlz
+        PC9kaXY+DQogICAgICAgICAgICA8ZGl2IGlkPSJCaW8iPjwvZGl2Pg0KDQog
+        ICAgICAgICAgICANCiAgICAgICAgICAgIDxvbCBpZD0iUGxheWVkR2FtZXMi
+        ID4NCiAgICAgICAgICAgIA0KICAgICAgICAgICAgICAgIDxsaSA+DQogICAg
+        ICAgICAgICAgICAgICAgIA0KICAgICAgICAgICAgICAgICAgICA8YSBocmVm
+        PSJodHRwOi8vbGl2ZS54Ym94LmNvbS9lbi1VUy9BY3Rpdml0eS9EZXRhaWxz
+        P3RpdGxlSWQ9MTEyOTEyMTg1OCZhbXA7Y29tcGFyZVRvPXRoZWdvbGRlbnJl
+        Y29yZCI+DQogICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPSJodHRw
+        Oi8vdGlsZXMueGJveC5jb20vdGlsZXMvK04vT0IvMVdkc2IySmhiQTlFQ2dR
+        TEcxUWZWbHRSTDJsamIyNHZNQzg0TURBd0lBQUFBQUFBQVBxdTArYz0uanBn
+        IiBhbHQ9IkYxIDIwMTHihKIiIHRpdGxlPSJGMSAyMDEx4oSiIiAvPg0KICAg
+        ICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iVGl0bGUiPkYxIDIw
+        MTHihKI8L3NwYW4+DQogICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNs
+        YXNzPSJMYXN0UGxheWVkIj4yLzI3LzIwMTQ8L3NwYW4+DQogICAgICAgICAg
+        ICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJFYXJuZWRHYW1lcnNjb3JlIj4x
+        OTU8L3NwYW4+DQogICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNz
+        PSJBdmFpbGFibGVHYW1lcnNjb3JlIj4xMDAwPC9zcGFuPg0KICAgICAgICAg
+        ICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iRWFybmVkQWNoaWV2ZW1lbnRz
+        Ij45PC9zcGFuPg0KICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFz
+        cz0iQXZhaWxhYmxlQWNoaWV2ZW1lbnRzIj4zODwvc3Bhbj4NCiAgICAgICAg
+        ICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9IlBlcmNlbnRhZ2VDb21wbGV0
+        ZSI+MjMlPC9zcGFuPg0KICAgICAgICAgICAgICAgICAgICA8L2E+DQogICAg
+        ICAgICAgICAgICAgPC9saT4NCiAgICAgICAgICAgIA0KICAgICAgICAgICAg
+        ICAgIDxsaSA+DQogICAgICAgICAgICAgICAgICAgIA0KICAgICAgICAgICAg
+        ICAgICAgICA8YSBocmVmPSJodHRwOi8vbGl2ZS54Ym94LmNvbS9lbi1VUy9B
+        Y3Rpdml0eS9EZXRhaWxzP3RpdGxlSWQ9MTA5NjE1NzM3OSZhbXA7Y29tcGFy
+        ZVRvPXRoZWdvbGRlbnJlY29yZCI+DQogICAgICAgICAgICAgICAgICAgICAg
+        IDxpbWcgc3JjPSJodHRwOi8vdGlsZXMueGJveC5jb20vdGlsZXMvTlgvT3Ev
+        MG1kc2IySmhiQTlFQ2dRSkdnWWZWZ3hRTDJsamIyNHZNQzg0TURBd0lBQUFB
+        QUFBQVAyRmN5bz0uanBnIiBhbHQ9IkNPRDogQmxhY2sgT3BzIElJIiB0aXRs
+        ZT0iQ09EOiBCbGFjayBPcHMgSUkiIC8+DQogICAgICAgICAgICAgICAgICAg
+        ICAgIDxzcGFuIGNsYXNzPSJUaXRsZSI+Q09EOiBCbGFjayBPcHMgSUk8L3Nw
+        YW4+DQogICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJMYXN0
+        UGxheWVkIj4yLzI2LzIwMTQ8L3NwYW4+DQogICAgICAgICAgICAgICAgICAg
+        ICAgIDxzcGFuIGNsYXNzPSJFYXJuZWRHYW1lcnNjb3JlIj42MDwvc3Bhbj4N
+        CiAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9IkF2YWlsYWJs
+        ZUdhbWVyc2NvcmUiPjIwMDA8L3NwYW4+DQogICAgICAgICAgICAgICAgICAg
+        ICAgIDxzcGFuIGNsYXNzPSJFYXJuZWRBY2hpZXZlbWVudHMiPjI8L3NwYW4+
+        DQogICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJBdmFpbGFi
+        bGVBY2hpZXZlbWVudHMiPjkwPC9zcGFuPg0KICAgICAgICAgICAgICAgICAg
+        ICAgICA8c3BhbiBjbGFzcz0iUGVyY2VudGFnZUNvbXBsZXRlIj4yJTwvc3Bh
+        bj4NCiAgICAgICAgICAgICAgICAgICAgPC9hPg0KICAgICAgICAgICAgICAg
+        IDwvbGk+DQogICAgICAgICAgICANCiAgICAgICAgICAgICAgICA8bGkgPg0K
+        ICAgICAgICAgICAgICAgICAgICANCiAgICAgICAgICAgICAgICAgICAgPGEg
+        aHJlZj0iaHR0cDovL2xpdmUueGJveC5jb20vZW4tVVMvQWN0aXZpdHkvRGV0
+        YWlscz90aXRsZUlkPTE0ODA2NTc1NDgmYW1wO2NvbXBhcmVUbz10aGVnb2xk
+        ZW5yZWNvcmQiPg0KICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz0i
+        aHR0cDovL3RpbGVzLnhib3guY29tL3RpbGVzL1ByL2gtLzFXZHNiMkpoYkE5
+        RUNnVUFHd0VmRDFjQUwybGpiMjR2TUM4NE1EQXdJQUFBQUFBQUFQcFF1Q0U9
+        LmpwZyIgYWx0PSJQQUMtTUFOIENFIERYIiB0aXRsZT0iUEFDLU1BTiBDRSBE
+        WCIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9IlRp
+        dGxlIj5QQUMtTUFOIENFIERYPC9zcGFuPg0KICAgICAgICAgICAgICAgICAg
+        ICAgICA8c3BhbiBjbGFzcz0iTGFzdFBsYXllZCI+Mi8xNS8yMDE0PC9zcGFu
+        Pg0KICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iRWFybmVk
+        R2FtZXJzY29yZSI+MTEwPC9zcGFuPg0KICAgICAgICAgICAgICAgICAgICAg
+        ICA8c3BhbiBjbGFzcz0iQXZhaWxhYmxlR2FtZXJzY29yZSI+MjAwPC9zcGFu
+        Pg0KICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iRWFybmVk
+        QWNoaWV2ZW1lbnRzIj44PC9zcGFuPg0KICAgICAgICAgICAgICAgICAgICAg
+        ICA8c3BhbiBjbGFzcz0iQXZhaWxhYmxlQWNoaWV2ZW1lbnRzIj4xMjwvc3Bh
+        bj4NCiAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9IlBlcmNl
+        bnRhZ2VDb21wbGV0ZSI+NjYlPC9zcGFuPg0KICAgICAgICAgICAgICAgICAg
+        ICA8L2E+DQogICAgICAgICAgICAgICAgPC9saT4NCiAgICAgICAgICAgIA0K
+        ICAgICAgICAgICAgICAgIDxsaSA+DQogICAgICAgICAgICAgICAgICAgIA0K
+        ICAgICAgICAgICAgICAgICAgICA8YSBocmVmPSJodHRwOi8vbGl2ZS54Ym94
+        LmNvbS9lbi1VUy9BY3Rpdml0eS9EZXRhaWxzP3RpdGxlSWQ9MTQ2NDk5Mzgw
+        NCZhbXA7Y29tcGFyZVRvPXRoZWdvbGRlbnJlY29yZCI+DQogICAgICAgICAg
+        ICAgICAgICAgICAgIDxpbWcgc3JjPSJodHRwOi8vdGlsZXMueGJveC5jb20v
+        dGlsZXMvZkIvbWYvMVdkc2IySmhiQTlFQ2dVUEdnSWZWbDhBTDJsamIyNHZN
+        Qzg0TURBd0lBQUFBQUFBQVBxd0dXTT0uanBnIiBhbHQ9Ik9uY2UgVXBvbiBh
+        IE1vbnN0ZXIiIHRpdGxlPSJPbmNlIFVwb24gYSBNb25zdGVyIiAvPg0KICAg
+        ICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iVGl0bGUiPk9uY2Ug
+        VXBvbiBhIE1vbnN0ZXI8L3NwYW4+DQogICAgICAgICAgICAgICAgICAgICAg
+        IDxzcGFuIGNsYXNzPSJMYXN0UGxheWVkIj4yLzE1LzIwMTQ8L3NwYW4+DQog
+        ICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJFYXJuZWRHYW1l
+        cnNjb3JlIj40MDA8L3NwYW4+DQogICAgICAgICAgICAgICAgICAgICAgIDxz
+        cGFuIGNsYXNzPSJBdmFpbGFibGVHYW1lcnNjb3JlIj4xMTA1PC9zcGFuPg0K
+        ICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iRWFybmVkQWNo
+        aWV2ZW1lbnRzIj4yMDwvc3Bhbj4NCiAgICAgICAgICAgICAgICAgICAgICAg
+        PHNwYW4gY2xhc3M9IkF2YWlsYWJsZUFjaGlldmVtZW50cyI+NDY8L3NwYW4+
+        DQogICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJQZXJjZW50
+        YWdlQ29tcGxldGUiPjQzJTwvc3Bhbj4NCiAgICAgICAgICAgICAgICAgICAg
+        PC9hPg0KICAgICAgICAgICAgICAgIDwvbGk+DQogICAgICAgICAgICANCiAg
+        ICAgICAgICAgICAgICA8bGkgPg0KICAgICAgICAgICAgICAgICAgICANCiAg
+        ICAgICAgICAgICAgICAgICAgPGEgaHJlZj0iaHR0cDovL2xpdmUueGJveC5j
+        b20vZW4tVVMvQWN0aXZpdHkvRGV0YWlscz90aXRsZUlkPTE0ODA2NTk0NDcm
+        YW1wO2NvbXBhcmVUbz10aGVnb2xkZW5yZWNvcmQiPg0KICAgICAgICAgICAg
+        ICAgICAgICAgICA8aW1nIHNyYz0iaHR0cDovL3RpbGVzLnhib3guY29tL3Rp
+        bGVzL2ZnLzlRLzBHZHNiMkpoYkE5RUNnVUFHd0VlWHdsVUwybGpiMjR2TUM4
+        NE1EQXdJQUFBQUFBQUFQOS1EMkU9LmpwZyIgYWx0PSJNaW5lY3JhZnQiIHRp
+        dGxlPSJNaW5lY3JhZnQiIC8+DQogICAgICAgICAgICAgICAgICAgICAgIDxz
+        cGFuIGNsYXNzPSJUaXRsZSI+TWluZWNyYWZ0PC9zcGFuPg0KICAgICAgICAg
+        ICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iTGFzdFBsYXllZCI+Mi83LzIw
+        MTQ8L3NwYW4+DQogICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNz
+        PSJFYXJuZWRHYW1lcnNjb3JlIj4yMTU8L3NwYW4+DQogICAgICAgICAgICAg
+        ICAgICAgICAgIDxzcGFuIGNsYXNzPSJBdmFpbGFibGVHYW1lcnNjb3JlIj40
+        MDA8L3NwYW4+DQogICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNz
+        PSJFYXJuZWRBY2hpZXZlbWVudHMiPjEzPC9zcGFuPg0KICAgICAgICAgICAg
+        ICAgICAgICAgICA8c3BhbiBjbGFzcz0iQXZhaWxhYmxlQWNoaWV2ZW1lbnRz
+        Ij4yMDwvc3Bhbj4NCiAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xh
+        c3M9IlBlcmNlbnRhZ2VDb21wbGV0ZSI+NjUlPC9zcGFuPg0KICAgICAgICAg
+        ICAgICAgICAgICA8L2E+DQogICAgICAgICAgICAgICAgPC9saT4NCiAgICAg
+        ICAgICAgIA0KICAgICAgICAgICAgPC9vbD4NCiAgICAgICAgPC9kaXY+DQog
+        ICAgICAgIA0KICAgIDwvYm9keT4NCjwvaHRtbD4=
     http_version: 
-  recorded_at: Mon, 03 Mar 2014 04:54:14 GMT
+  recorded_at: Mon, 03 Mar 2014 05:37:02 GMT
 recorded_with: VCR 2.8.0
