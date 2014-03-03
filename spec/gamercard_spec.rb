@@ -12,7 +12,10 @@ describe "Gamercard" do
       gamercard = XblGamercard::Gamercard.fetch("thegoldenrecord")
       expect(gamercard.gamertag).to eq("thegoldenrecord")
       expect(gamercard.gamerscore).to eq(3845)
+      expect(gamercard.location).to eq("")
+      expect(gamercard.motto).to eq("")
       expect(gamercard.name).to eq("Chris")
+      expect(gamercard.bio).to eq("")
       expect(gamercard.icon_url).to eq("http://image.xboxlive.com/global/t.584109c0/tile/0/2000e")
       expect(gamercard.played_games).to have(5).items
 

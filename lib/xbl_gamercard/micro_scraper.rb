@@ -67,7 +67,7 @@ module XblGamercard
       end
 
       def self.field_name(selector)
-        word = selector.split(/[ \#\.]/).last
+        word = selector.split(/[\W]/).last
         word.gsub!(/([A-Z\d]+)([A-Z][a-z])/, '\1_\2')
         word.gsub!(/([a-z\d])([A-Z])/, '\1_\2')
         word.tr!("-", "_")

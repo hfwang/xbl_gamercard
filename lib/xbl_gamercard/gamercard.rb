@@ -14,11 +14,16 @@ module XblGamercard
 
     extract_text("#Gamertag")
     extract_int("#Gamerscore")
+    extract_text("#Location")
+    extract_text("#Motto")
     extract_text("#Name")
+    extract_text("#Bio")
     extract("#Gamerpic", :as => :icon_url) { |e| e["src"] }
 
     def played_games
       return element.css("ol#PlayedGames>li").select { |e|
+        # This is annoyingly hard to express using MicroScraper on older
+        # versions of Nokogiri...
         e["class"] != "Unplayed"
       }.map { |e|
         XblGamercard::GamercardGame.new(e)

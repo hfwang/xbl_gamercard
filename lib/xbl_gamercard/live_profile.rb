@@ -1,17 +1,30 @@
 require "net/https"
 require "nokogiri"
 require "uri"
+require "cgi"
 
 module XblGamercard
   class LiveProfile
-    attr_accessor :document
+    include XblGamercard::MicroScraper
+
+    attr_accessor :element
 
     def initialize(html)
-      @document = Nokogiri::HTML(html)
+      @element = Nokogiri::HTML(html)
     end
 
-    def presence
-      document.css(".links .presence").text()
+    extract("article.profile.you", :as => :gamertag) { |e| e["data-gamertag"] }
+    extract("article.profile.you img.gamerpic", :as => "icon_url") { |e| e["src"] }
+    extract_text "article.profile.you .basics .name .value", :as => :name
+    extract_text "article.profile.you .location .value", :as => :location
+    extract_text "article.profile.you .bio .value", :as => :bio
+    extract(".motto") { |e| e.nil? ? "" : e.text.strip }
+    extract_int "article.profile.you .basics .gamerscore"
+
+    extract_text ".links .presence"
+
+    def avatar_image_url
+      "https://avatar-ssl.xboxlive.com/avatar/#{URI.escape(gamertag)}/avatar-body.png"
     end
 
     def self.fetch(gamertag)
